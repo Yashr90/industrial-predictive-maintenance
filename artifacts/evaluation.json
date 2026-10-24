@@ -1,0 +1,65 @@
+{
+  "dataset": "UCI AI4I 2020 Predictive Maintenance Dataset (synthetic)",
+  "rows": 10000,
+  "failure_rate": 0.0339,
+  "threshold": 0.35,
+  "accuracy": 0.9565,
+  "precision_failure": 0.42962962962962964,
+  "recall_failure": 0.8529411764705882,
+  "f1_failure": 0.5714285714285714,
+  "average_precision_pr_auc": 0.7528495267174827,
+  "roc_auc": 0.9663941663621971,
+  "confusion_matrix_labels_0_1": [
+    [
+      1855,
+      77
+    ],
+    [
+      10,
+      58
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9946380697050938,
+      "recall": 0.9601449275362319,
+      "f1-score": 0.9770871740848038,
+      "support": 1932.0
+    },
+    "1": {
+      "precision": 0.42962962962962964,
+      "recall": 0.8529411764705882,
+      "f1-score": 0.5714285714285714,
+      "support": 68.0
+    },
+    "accuracy": 0.9565,
+    "macro avg": {
+      "precision": 0.7121338496673617,
+      "recall": 0.9065430520034101,
+      "f1-score": 0.7742578727566876,
+      "support": 2000.0
+    },
+    "weighted avg": {
+      "precision": 0.9754277827425281,
+      "recall": 0.9565,
+      "f1-score": 0.963294781594492,
+      "support": 2000.0
+    }
+  },
+  "features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "excluded_leakage_columns": [
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF"
+  ],
+  "notes": "Synthetic benchmark; metrics do not establish real-world factory performance."
+}

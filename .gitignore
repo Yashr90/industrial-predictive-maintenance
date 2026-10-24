@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.env
+.DS_Store
+
+artifacts/*.csv
+
+data/*
+!data/.gitkeep

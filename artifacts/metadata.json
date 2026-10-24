@@ -1,0 +1,14 @@
+{
+  "features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "threshold": 0.35,
+  "model_name": "RandomForestClassifier",
+  "anomaly_model": "IsolationForest",
+  "dataset": "UCI AI4I 2020 (synthetic)"
+}
